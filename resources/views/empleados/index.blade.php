@@ -16,7 +16,6 @@
           <th>Salario: </th>
           <th>Empleo: </th>
           <th>Empresa para la que trabajan: </th>
-
           <th>Borrar un empleado </th>
 
         </tr>

@@ -92,10 +92,6 @@ class EmpleadoController extends Controller
 
         }
     }
-    public function mostrarEmpleadosEmpresa(Request $request)
-    {
-        $empresas = Empresa::all();
-        $num_empleados = $request->input('num_empleados');
-        $empleados = Empleado::where('empresa_id', $num_empleados)->get();
-    }
+
+
 }
