@@ -26,3 +26,7 @@ Route::resource('/empleados', EmpleadoController::class);
 Route::get('/empleados/create', [EmpleadoController::class, 'create'])->name('empleados.create');
 Route::post('/empleados', [EmpleadoController::class, 'store'])->name('empleados.store');
 
+Route::get('/empleados/mostrarEmpleadosEmpresa', [EmpleadoController::class, 'mostrarEmpleadosEmpresa'])->name('empleados.mostrarEmpleadosEmpresa');
+
+
+

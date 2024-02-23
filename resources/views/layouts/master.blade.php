@@ -18,6 +18,7 @@
                 <li><a href="{{ route('empleados.index') }}">Empleados</a></li>
                 <li><a href="{{ route('empleados.create') }}">Crear un nuevo empleado</a></li>
             </ul>
+
         </div>
     </header>
     <main>
