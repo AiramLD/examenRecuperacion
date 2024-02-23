@@ -22,9 +22,8 @@ class EmpleadoController extends Controller
      */
     public function create()
     {
-        $empleados = Empleado::all();
-        $empleados->load('empresas');
-        return view('empleados.create', compact('empleados'));
+        $empresas = Empresa::all();
+        return view('empleados.create', compact('empresas'));
     }
 
     /**

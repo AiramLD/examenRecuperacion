@@ -11,7 +11,7 @@
 <table>
     <thead>
         <tr>
-          <th>ID: </th>
+          <th>Nombre: </th>
           <th>Fecha de nacimiento: </th>
           <th>Salario: </th>
           <th>Empleo: </th>
@@ -26,7 +26,7 @@
         <a href="{{ route('empleados.create') }}">Crear un nuevo empleado</a>
         @foreach ($empleados as $empleado)
             <tr>
-                <td>{{ $empleado->id }}</td>
+                <td>{{ $empleado->name }}</td>
                 <td>{{ $empleado->date }}</td>
                 <td>{{ $empleado->salary }}</td>
                 <td>{{ $empleado->job }}</td>
